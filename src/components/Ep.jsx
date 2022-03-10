@@ -40,7 +40,7 @@ const StatusBar = ({
     label,
     max,
     current,
-    primaryColor,
+   
     secondaryColor,
     onClick
 }) => {
@@ -51,7 +51,7 @@ const StatusBar = ({
             <LinearProgressWithLabel
                 value={normalise(current, max)}
                 label={label}
-                primaryColor={primaryColor}
+                primaryColor={#0000CD}
                 secondaryColor={secondaryColor}
                 onClick={onClick}
             />
